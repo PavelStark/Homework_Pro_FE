@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.card_container {
+  /* border: 1px solid black; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin: 40px;
+}
+
+.div_card {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid grey;
+  border-radius: 15px;
+  justify-self: center;
+  padding: 40px;
+  gap: 20px;
+}
+
+.image {
+  width: 350px;
+  aspect-ratio: 1/1;
+  border: 1px solid black;
+}
+
+p {
+  font-weight: bolder;
+  font-size: larger;
+  color: green;
+}
+
+.active {
+  color: orange;
+}
+
+.stars_container {
+  display: flex;
+  align-self: center;
+  gap: 20px;
+}
